@@ -9,9 +9,9 @@
 
     <Button
         android:id="@+id/btn_contactenos"
-        android:layout_width="158dp"
-        android:layout_height="73dp"
-        android:text="CONTÁCTENOS "
+        android:layout_width="193dp"
+        android:layout_height="74dp"
+        android:text="RECOMENDACIONES"
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,8 +22,8 @@
 
     <Button
         android:id="@+id/btn_ubicacion"
-        android:layout_width="158dp"
-        android:layout_height="73dp"
+        android:layout_width="194dp"
+        android:layout_height="74dp"
         android:text="UBICACIÓN "
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,8 +35,8 @@
 
     <Button
         android:id="@+id/btn_menu"
-        android:layout_width="158dp"
-        android:layout_height="73dp"
+        android:layout_width="193dp"
+        android:layout_height="76dp"
         android:text="MENU"
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
