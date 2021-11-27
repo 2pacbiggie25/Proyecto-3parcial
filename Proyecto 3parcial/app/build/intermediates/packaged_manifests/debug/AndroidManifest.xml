@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto3parcial" >
         <activity
+            android:name="com.example.proyecto3parcial.recomendaciones"
+            android:exported="false" />
+        <activity
             android:name="com.example.proyecto3parcial.ordenes"
             android:exported="false" />
         <activity

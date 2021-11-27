@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void irInicio(View view) {
 
-        Intent botonInicio = new Intent(this, menu.class);
+        Intent botonInicio = new Intent(this, inicio.class);
 
         startActivity(botonInicio);
     }

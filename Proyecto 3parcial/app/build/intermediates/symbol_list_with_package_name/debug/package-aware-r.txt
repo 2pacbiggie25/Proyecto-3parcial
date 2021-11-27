@@ -1928,6 +1928,7 @@ id btn_Ingresar
 id btn_contactenos
 id btn_crear
 id btn_crearPlato
+id btn_enviar
 id btn_finOrden
 id btn_menu
 id btn_orden
@@ -2053,6 +2054,8 @@ id imageView2
 id imageView3
 id imageView4
 id imageView5
+id imageView6
+id imageView7
 id immediateStop
 id included
 id info
@@ -2265,6 +2268,9 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
+id textView6
+id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2290,11 +2296,14 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txt_CorreoRecomendacion
 id txt_Nombre
+id txt_Recomendacion
 id txt_apellido2
 id txt_correo
 id txt_descripcionPlato
 id txt_nombreCliente
+id txt_nombreRecomendacion
 id txt_nombreplatillo
 id txt_nombreplato
 id txt_numOrden
@@ -2395,6 +2404,7 @@ layout activity_main
 layout activity_menu
 layout activity_ordenes
 layout activity_platillo
+layout activity_recomendaciones
 layout activity_registro
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2481,6 +2491,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap burguer
+mipmap fondito
 mipmap fondoinicio
 mipmap fondomenu
 mipmap fonfobufet

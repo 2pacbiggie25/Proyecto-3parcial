@@ -1927,6 +1927,7 @@ int id btn_Ingresar 0x7f080062
 int id btn_contactenos 0x7f080063
 int id btn_crear 0x7f080064
 int id btn_crearPlato 0x7f080065
+int id btn_enviar 0x7f0801f1
 int id btn_finOrden 0x7f080066
 int id btn_menu 0x7f080067
 int id btn_orden 0x7f080068
@@ -2052,6 +2053,8 @@ int id imageView2 0x7f0800df
 int id imageView3 0x7f0800e0
 int id imageView4 0x7f0800e1
 int id imageView5 0x7f0800e2
+int id imageView6 0x7f0801f2
+int id imageView7 0x7f0801f3
 int id immediateStop 0x7f0800e3
 int id included 0x7f0800e4
 int id info 0x7f0800e5
@@ -2264,6 +2267,9 @@ int id textView 0x7f0801b3
 int id textView2 0x7f0801b4
 int id textView3 0x7f0801b5
 int id textView4 0x7f0801b6
+int id textView5 0x7f0801f4
+int id textView6 0x7f0801f5
+int id textView7 0x7f0801f6
 int id text_input_end_icon 0x7f0801b7
 int id text_input_error_icon 0x7f0801b8
 int id text_input_start_icon 0x7f0801b9
@@ -2289,11 +2295,14 @@ int id transition_position 0x7f0801cc
 int id transition_scene_layoutid_cache 0x7f0801cd
 int id transition_transform 0x7f0801ce
 int id triangle 0x7f0801cf
+int id txt_CorreoRecomendacion 0x7f0801f7
 int id txt_Nombre 0x7f0801d0
+int id txt_Recomendacion 0x7f0801f8
 int id txt_apellido2 0x7f0801d1
 int id txt_correo 0x7f0801d2
 int id txt_descripcionPlato 0x7f0801d3
 int id txt_nombreCliente 0x7f0801d4
+int id txt_nombreRecomendacion 0x7f0801f9
 int id txt_nombreplatillo 0x7f0801d5
 int id txt_nombreplato 0x7f0801d6
 int id txt_numOrden 0x7f0801d7
@@ -2394,6 +2403,7 @@ int layout activity_main 0x7f0b001d
 int layout activity_menu 0x7f0b001e
 int layout activity_ordenes 0x7f0b001f
 int layout activity_platillo 0x7f0b0020
+int layout activity_recomendaciones 0x7f0b0076
 int layout activity_registro 0x7f0b0021
 int layout custom_dialog 0x7f0b0022
 int layout design_bottom_navigation_item 0x7f0b0023
@@ -2480,6 +2490,7 @@ int layout text_view_with_line_height_from_style 0x7f0b0073
 int layout text_view_with_theme_line_height 0x7f0b0074
 int layout text_view_without_line_height 0x7f0b0075
 int mipmap burguer 0x7f0c0000
+int mipmap fondito 0x7f0c0011
 int mipmap fondoinicio 0x7f0c0001
 int mipmap fondomenu 0x7f0c0002
 int mipmap fonfobufet 0x7f0c0003
