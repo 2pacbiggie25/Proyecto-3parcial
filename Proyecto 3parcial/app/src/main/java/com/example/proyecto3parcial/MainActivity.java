@@ -20,4 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(botonInicio);
     }
+
+    public void irRegistro(View view) {
+
+        Intent botonRegistro = new Intent(this, Registro.class);
+
+        startActivity(botonRegistro);
+    }
+
 }
