@@ -10,9 +10,9 @@ com/example/proyecto3parcial/platillo.java
  com.example.proyecto3parcial.platillo
 com/example/proyecto3parcial/BaseDeDatos.java
  com.example.proyecto3parcial.BaseDeDatos
-com/example/proyecto3parcial/Registro.java
- com.example.proyecto3parcial.Registro
 com/example/proyecto3parcial/ordenes.java
  com.example.proyecto3parcial.ordenes
 com/example/proyecto3parcial/MainActivity.java
  com.example.proyecto3parcial.MainActivity
+com/example/proyecto3parcial/Registro.java
+ com.example.proyecto3parcial.Registro

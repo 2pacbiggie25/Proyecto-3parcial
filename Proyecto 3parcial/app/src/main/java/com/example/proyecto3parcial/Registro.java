@@ -42,7 +42,7 @@ public class Registro extends AppCompatActivity {
             ContentValues registro = new ContentValues();
 
             registro.put("tipoUsuario", true);
-            registro.put("tipoUsuario", false);
+
 
             BaseDB.insert("tipoUsuario",null,registro);
             BaseDB.close();
