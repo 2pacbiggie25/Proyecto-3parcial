@@ -2296,14 +2296,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txt_CorreoRecomendacion
 id txt_Nombre
 id txt_Recomendacion
+id txt_admin
 id txt_apellido2
 id txt_correo
 id txt_descripcionPlato
 id txt_nombreCliente
-id txt_nombreRecomendacion
 id txt_nombreplatillo
 id txt_nombreplato
 id txt_numOrden

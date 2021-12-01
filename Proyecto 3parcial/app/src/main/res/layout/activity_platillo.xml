@@ -69,6 +69,7 @@
         android:id="@+id/button"
         android:layout_width="153dp"
         android:layout_height="53dp"
+        android:onClick="crearPlatillo"
         android:text="Crear"
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"

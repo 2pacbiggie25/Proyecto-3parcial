@@ -2295,14 +2295,13 @@ int id transition_position 0x7f0801d2
 int id transition_scene_layoutid_cache 0x7f0801d3
 int id transition_transform 0x7f0801d4
 int id triangle 0x7f0801d5
-int id txt_CorreoRecomendacion 0x7f0801d6
 int id txt_Nombre 0x7f0801d7
 int id txt_Recomendacion 0x7f0801d8
+int id txt_admin 0x7f0801fa
 int id txt_apellido2 0x7f0801d9
 int id txt_correo 0x7f0801da
 int id txt_descripcionPlato 0x7f0801db
 int id txt_nombreCliente 0x7f0801dc
-int id txt_nombreRecomendacion 0x7f0801dd
 int id txt_nombreplatillo 0x7f0801de
 int id txt_nombreplato 0x7f0801df
 int id txt_numOrden 0x7f0801e0

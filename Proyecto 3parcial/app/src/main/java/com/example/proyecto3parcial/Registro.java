@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class Registro extends AppCompatActivity {
 
-    private EditText ob_nombre, ob_apellido, ob_correo, ob_usuario, ob_password;
+    private EditText ob_nombre, ob_apellido, ob_correo, ob_usuario, ob_password, ob_admin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,7 @@ public class Registro extends AppCompatActivity {
         ob_correo = (EditText) findViewById(R.id.txt_correo);
         ob_usuario = (EditText) findViewById(R.id.txt_usuario);
         ob_password = (EditText) findViewById(R.id.txt_passwordRegistro);
+        ob_admin = (EditText) findViewById(R.id.txt_admin);
 
     }
     public void crearUsuario (View view){
@@ -31,28 +32,24 @@ public class Registro extends AppCompatActivity {
         SQLiteDatabase BaseDB = admin.getWritableDatabase();
 
         String nombre = ob_nombre.getText().toString();
-        String apellido = ob_nombre.getText().toString();
-        String correo = ob_nombre.getText().toString();
-        String usuario = ob_nombre.getText().toString();
-        String password= ob_nombre.getText().toString();
+        String apellido = ob_apellido.getText().toString();
+        String correo = ob_correo.getText().toString();
+        String usuario = ob_usuario.getText().toString();
+        String password= ob_password.getText().toString();
+        String privilegios= ob_admin.getText().toString();
 
-        if(!nombre.isEmpty() && !apellido.isEmpty() && !correo.isEmpty() && !usuario.isEmpty() && !password.isEmpty()){
+        if(!nombre.isEmpty() && !apellido.isEmpty() && !correo.isEmpty() && !usuario.isEmpty() && !password.isEmpty() && !privilegios.isEmpty()){
 
 
             ContentValues registro = new ContentValues();
 
-            registro.put("tipoUsuario", true);
-
-
-            BaseDB.insert("tipoUsuario",null,registro);
-            BaseDB.close();
 
             registro.put("nombre", nombre);
             registro.put("apellido", apellido);
             registro.put("correo", correo);
             registro.put("usuario", usuario);
             registro.put("password", password);
-            registro.put("idTipoUsuario", 2);
+            registro.put("admin", privilegios);
 
             Toast.makeText(this,"Usuarios Registrados",Toast.LENGTH_SHORT).show();
             BaseDB.insert("Usuario",null,registro);
@@ -63,6 +60,7 @@ public class Registro extends AppCompatActivity {
             ob_correo.setText("");
             ob_usuario.setText("");
             ob_password.setText("");
+            ob_admin.setText("");
 
 
 
