@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             //Toast.makeText(this,"Pasaron validacion", Toast.LENGTH_SHORT).show();
 
             //Cursor fila = bd.rawQuery("SELECT nombre,apellido,correo,usuario,password,admin FROM Usuario WHERE usuario ="+usuario+" AND password = " +password, null);
-            Cursor fila = bd.rawQuery("select nombre,apellido,correo,usuario,password,admin from Usuario where usuario ="+usuario, null);
+            Cursor fila = bd.rawQuery("select admin from Usuario where usuario ="+usuario, null);
 
             if(fila.moveToFirst()) {
                 obj_prueba.setText( fila.getString(0) );
