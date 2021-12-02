@@ -2005,8 +2005,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPassword
-id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2158,6 +2156,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordInput
 id password_toggle
 id path
 id pathRelative
@@ -2168,6 +2167,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id prueba
 id radio
 id ratio
 id rectangles
@@ -2314,6 +2314,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usuarioInput
 id vertical_only
 id view_offset_helper
 id view_transition

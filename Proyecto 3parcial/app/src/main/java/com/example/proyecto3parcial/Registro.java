@@ -3,6 +3,7 @@ package com.example.proyecto3parcial;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -62,6 +63,8 @@ public class Registro extends AppCompatActivity {
             ob_password.setText("");
             ob_admin.setText("");
 
+            Intent login = new Intent(this,MainActivity.class);
+            startActivity(login);
 
 
         }

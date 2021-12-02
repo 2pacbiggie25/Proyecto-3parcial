@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.871" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordInput"
         android:layout_width="208dp"
         android:layout_height="48dp"
         android:background="#FF8550"
@@ -61,7 +61,7 @@
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/usuarioInput"
         style="@style/Widget.AppCompat.EditText"
         android:layout_width="205dp"
         android:layout_height="48dp"
@@ -105,5 +105,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.083"
         app:srcCompat="@mipmap/log" />
+
+    <TextView
+        android:id="@+id/prueba"
+        android:layout_width="113dp"
+        android:layout_height="32dp"
+        android:text="buscar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
