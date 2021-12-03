@@ -32,11 +32,9 @@ public class ubicacion extends AppCompatActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions()
-                .position(sydney)
-                .title("Restaurante"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng Tegucigalpa = new LatLng(-34, 151);
+        mMap.addMarker(new MarkerOptions().position(Tegucigalpa).title("Restaurante"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Tegucigalpa, 13));
 
     }
 }
