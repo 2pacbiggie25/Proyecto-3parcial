@@ -24,38 +24,41 @@ public class MainActivity extends AppCompatActivity {
 
         usuarioInput = (EditText) findViewById(R.id.usuarioInput);
         passwordInput = (EditText) findViewById(R.id.passwordInput);
-        obj_prueba = (TextView) findViewById(R.id.prueba);
+
 
     }
 
-    public void irInicio(View view) {
+   public void irInicio(View view) {
 
-        BaseDeDatos admin = new BaseDeDatos(this,"RestauranteApp",null,1);
-        SQLiteDatabase bd = admin.getWritableDatabase();
         String usuario = usuarioInput.getText().toString();
-        String password = usuarioInput.getText().toString();
+        String password = passwordInput.getText().toString();
 
-        if( !usuario.isEmpty() && !password.isEmpty() ) {
-            //Toast.makeText(this,"Pasaron validacion", Toast.LENGTH_SHORT).show();
+        if(!usuario.isEmpty()){
 
-            //Cursor fila = bd.rawQuery("SELECT nombre,apellido,correo,usuario,password,admin FROM Usuario WHERE usuario ="+usuario+" AND password = " +password, null);
-            Cursor fila = bd.rawQuery("select admin from Usuario where usuario ="+usuario, null);
+            if (usuario.equals("admin") && password.equals("admin")){
 
-            if(fila.moveToFirst()) {
-                obj_prueba.setText( fila.getString(0) );
-                bd.close();
+                Intent admin = new Intent(this,menu.class);
+                startActivity(admin);
+                usuarioInput.setText("");
+                passwordInput.setText("");
 
-                Intent botonInicio = new Intent(this, inicio.class);
-                startActivity(botonInicio);
+            }
+            else if (usuario.equals("cliente") && password.equals("cliente")){
 
+                Intent inicio = new Intent(this,inicio.class);
+                startActivity(inicio);
+                usuarioInput.setText("");
+                passwordInput.setText("");
+            }
+            else{
 
-            } else {
-                Toast.makeText(this,"no existe el usuario , cree uno", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Usuario o Contraseña incorrecta", Toast.LENGTH_SHORT).show();
             }
 
-        } else {
-            Toast.makeText(this,"Ingrese usuario y contraseña", Toast.LENGTH_SHORT).show();
+        }
+        else {
 
+            Toast.makeText(this,"Ingrese usuario", Toast.LENGTH_SHORT).show();
         }
 
 

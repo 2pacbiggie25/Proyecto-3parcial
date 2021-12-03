@@ -84,6 +84,10 @@
         "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_lock_24.png"
     },
     {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_crear_orden.xml.flat",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_crear_orden.xml"
+    },
+    {
         "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_menufondo.jpg.flat",
         "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\mipmap-hdpi\\menufondo.jpg"
     },

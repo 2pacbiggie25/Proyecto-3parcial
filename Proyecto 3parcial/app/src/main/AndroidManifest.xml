@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto3parcial">
         <activity
+            android:name=".CrearOrden"
+            android:exported="false" />
+        <activity
             android:name=".recomendaciones"
             android:exported="false" />
         <activity

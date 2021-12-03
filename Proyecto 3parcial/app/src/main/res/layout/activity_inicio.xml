@@ -35,11 +35,11 @@
         app:layout_constraintVertical_bias="0.547" />
 
     <Button
-        android:id="@+id/btn_menu"
+        android:id="@+id/btn_ordenar"
         android:layout_width="193dp"
         android:layout_height="76dp"
-        android:onClick="irmenu"
-        android:text="MENU"
+        android:onClick="ordenar"
+        android:text="ORDENAR"
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

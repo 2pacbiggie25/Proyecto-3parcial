@@ -1,18 +1,20 @@
-com/example/proyecto3parcial/recomendaciones.java
- com.example.proyecto3parcial.recomendaciones
+com/example/proyecto3parcial/BaseDeDatos.java
+ com.example.proyecto3parcial.BaseDeDatos
 com/example/proyecto3parcial/BuildConfig.java
  com.example.proyecto3parcial.BuildConfig
-com/example/proyecto3parcial/menu.java
- com.example.proyecto3parcial.menu
+com/example/proyecto3parcial/recomendaciones.java
+ com.example.proyecto3parcial.recomendaciones
+com/example/proyecto3parcial/CrearOrden.java
+ com.example.proyecto3parcial.CrearOrden
+com/example/proyecto3parcial/MainActivity.java
+ com.example.proyecto3parcial.MainActivity
 com/example/proyecto3parcial/inicio.java
  com.example.proyecto3parcial.inicio
 com/example/proyecto3parcial/platillo.java
  com.example.proyecto3parcial.platillo
-com/example/proyecto3parcial/BaseDeDatos.java
- com.example.proyecto3parcial.BaseDeDatos
-com/example/proyecto3parcial/ordenes.java
- com.example.proyecto3parcial.ordenes
-com/example/proyecto3parcial/MainActivity.java
- com.example.proyecto3parcial.MainActivity
 com/example/proyecto3parcial/Registro.java
  com.example.proyecto3parcial.Registro
+com/example/proyecto3parcial/ordenes.java
+ com.example.proyecto3parcial.ordenes
+com/example/proyecto3parcial/menu.java
+ com.example.proyecto3parcial.menu

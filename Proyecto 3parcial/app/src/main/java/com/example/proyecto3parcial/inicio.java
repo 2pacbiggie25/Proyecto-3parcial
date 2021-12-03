@@ -14,9 +14,9 @@ public class inicio extends AppCompatActivity {
         setContentView(R.layout.activity_inicio);
     }
 
-    public void irmenu(View view) {
+    public void ordenar(View view) {
 
-        Intent botonMenu = new Intent(this, menu.class);
+        Intent botonMenu = new Intent(this, CrearOrden.class);
 
         startActivity(botonMenu);
     }

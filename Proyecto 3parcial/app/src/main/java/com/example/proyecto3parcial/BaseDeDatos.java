@@ -18,6 +18,7 @@ public class BaseDeDatos extends SQLiteOpenHelper
     public void onCreate(SQLiteDatabase Restaurantedb) {
         Restaurantedb.execSQL("create table Usuario (codigo INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,nombre text, apellido text, correo text, usuario text, password text,admin int)");
         Restaurantedb.execSQL("create table Platillo(codigo INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,nombre text, descripcion text, precio int)");
+        Restaurantedb.execSQL("create table Recomendacion(codigo INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, descripcion text)");
 
     }
 

@@ -11,7 +11,7 @@
 9-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:5:5-39:19
+11-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:5:5-42:19
 12        android:allowBackup="true"
 12-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -30,57 +30,63 @@
 20-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:11:9-54
 21        <activity
 21-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:12:9-14:40
-22            android:name="com.example.proyecto3parcial.recomendaciones"
-22-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:13:13-44
+22            android:name="com.example.proyecto3parcial.CrearOrden"
+22-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:13:13-39
 23            android:exported="false" />
 23-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:14:13-37
 24        <activity
 24-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="com.example.proyecto3parcial.ordenes"
-25-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:16:13-36
+25            android:name="com.example.proyecto3parcial.recomendaciones"
+25-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:16:13-44
 26            android:exported="false" />
 26-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:17:13-37
 27        <activity
 27-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="com.example.proyecto3parcial.platillo"
-28-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:19:13-37
+28            android:name="com.example.proyecto3parcial.ordenes"
+28-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:19:13-36
 29            android:exported="false" />
 29-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:20:13-37
 30        <activity
-30-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:21:9-23:39
-31            android:name="com.example.proyecto3parcial.inicio"
-31-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:22:13-35
-32            android:exported="true" />
-32-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:23:13-36
+30-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="com.example.proyecto3parcial.platillo"
+31-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:22:13-37
+32            android:exported="false" />
+32-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:23:13-37
 33        <activity
-33-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:24:9-26:40
-34            android:name="com.example.proyecto3parcial.menu"
-34-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:25:13-33
-35            android:exported="false" />
-35-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:26:13-37
+33-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:24:9-26:39
+34            android:name="com.example.proyecto3parcial.inicio"
+34-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:25:13-35
+35            android:exported="true" />
+35-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:26:13-36
 36        <activity
 36-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:27:9-29:40
-37            android:name="com.example.proyecto3parcial.Registro"
-37-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:28:13-37
+37            android:name="com.example.proyecto3parcial.menu"
+37-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:28:13-33
 38            android:exported="false" />
 38-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:29:13-37
 39        <activity
-39-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:30:9-38:20
-40            android:name="com.example.proyecto3parcial.MainActivity"
-40-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:31:13-41
-41            android:exported="true" >
-41-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:32:13-36
-42            <intent-filter>
-42-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:33:13-37:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:34:17-69
-43-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:34:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:36:17-77
-45-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:36:27-74
-46            </intent-filter>
-47        </activity>
-48    </application>
-49
-50</manifest>
+39-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:30:9-32:40
+40            android:name="com.example.proyecto3parcial.Registro"
+40-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:31:13-37
+41            android:exported="false" />
+41-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:32:13-37
+42        <activity
+42-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:33:9-41:20
+43            android:name="com.example.proyecto3parcial.MainActivity"
+43-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:34:13-41
+44            android:exported="true" >
+44-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:35:13-36
+45            <intent-filter>
+45-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:36:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:37:17-69
+46-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:37:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:39:17-77
+48-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>
