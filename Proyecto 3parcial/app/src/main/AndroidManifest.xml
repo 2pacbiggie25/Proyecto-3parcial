@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto3parcial">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDTNP6dHn3qiswDxw4QOszCEOdmOPR4U0M"/>
         <activity
             android:name=".CrearOrden"
             android:exported="false" />
+        <activity
+            android:name=".ubicacion"
+            android:exported="false"/>
         <activity
             android:name=".recomendaciones"
             android:exported="false" />
@@ -33,6 +39,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

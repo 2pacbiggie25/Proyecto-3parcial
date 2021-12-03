@@ -71,4 +71,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(botonRegistro);
     }
 
+    public void irUbi(View view) {
+
+        Intent botonUbi = new Intent(this, ubicacion.class);
+
+        startActivity(botonUbi);
+    }
+
 }

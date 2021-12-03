@@ -6,87 +6,147 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml
+8-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml
+9-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:5:5-42:19
-12        android:allowBackup="true"
-12-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\crisl\.gradle\caches\transforms-3\97e7ec19bd11dff7ae3d399ac9d0fa5b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.Proyecto3parcial" >
-20-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:11:9-54
-21        <activity
-21-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:12:9-14:40
-22            android:name="com.example.proyecto3parcial.CrearOrden"
-22-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:13:13-39
-23            android:exported="false" />
-23-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:14:13-37
-24        <activity
-24-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="com.example.proyecto3parcial.recomendaciones"
-25-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:16:13-44
-26            android:exported="false" />
-26-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:17:13-37
-27        <activity
-27-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="com.example.proyecto3parcial.ordenes"
-28-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:19:13-36
-29            android:exported="false" />
-29-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:20:13-37
-30        <activity
-30-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:21:9-23:40
-31            android:name="com.example.proyecto3parcial.platillo"
-31-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:22:13-37
-32            android:exported="false" />
-32-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:23:13-37
-33        <activity
-33-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:24:9-26:39
-34            android:name="com.example.proyecto3parcial.inicio"
-34-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:25:13-35
-35            android:exported="true" />
-35-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:26:13-36
-36        <activity
-36-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:27:9-29:40
-37            android:name="com.example.proyecto3parcial.menu"
-37-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:28:13-33
-38            android:exported="false" />
-38-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:29:13-37
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:25:5-79
+12-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:25:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-67
+13-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:5-30:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:29:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:32:5-36:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:35:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:35:18-61
+23    </queries>
+24
+25    <application
+25-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:5:5-49:19
+26        android:allowBackup="true"
+26-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:6:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] C:\Users\alago\.gradle\caches\transforms-3\97e7ec19bd11dff7ae3d399ac9d0fa5b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:7:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:8:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:9:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:10:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.Proyecto3parcial" >
+34-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:11:9-54
+35        <meta-data
+35-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:12:9-14:70
+36            android:name="com.google.android.geo.API_KEY"
+36-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:13:13-58
+37            android:value="AIzaSyDTNP6dHn3qiswDxw4QOszCEOdmOPR4U0M" />
+37-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:14:13-68
+38
 39        <activity
-39-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:30:9-32:40
-40            android:name="com.example.proyecto3parcial.Registro"
-40-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:31:13-37
+39-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:15:9-17:40
+40            android:name="com.example.proyecto3parcial.CrearOrden"
+40-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:16:13-39
 41            android:exported="false" />
-41-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:32:13-37
+41-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:17:13-37
 42        <activity
-42-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:33:9-41:20
-43            android:name="com.example.proyecto3parcial.MainActivity"
-43-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:34:13-41
-44            android:exported="true" >
-44-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:35:13-36
-45            <intent-filter>
-45-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:36:13-40:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:37:17-69
-46-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:37:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:39:17-77
-48-->C:\Users\crisl\Documents\GitHub\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:39:27-74
-49            </intent-filter>
-50        </activity>
-51    </application>
-52
-53</manifest>
+42-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:18:9-20:39
+43            android:name="com.example.proyecto3parcial.ubicacion"
+43-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:19:13-38
+44            android:exported="false" />
+44-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:20:13-37
+45        <activity
+45-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:21:9-23:40
+46            android:name="com.example.proyecto3parcial.recomendaciones"
+46-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:22:13-44
+47            android:exported="false" />
+47-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:23:13-37
+48        <activity
+48-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:24:9-26:40
+49            android:name="com.example.proyecto3parcial.ordenes"
+49-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:25:13-36
+50            android:exported="false" />
+50-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:26:13-37
+51        <activity
+51-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:27:9-29:40
+52            android:name="com.example.proyecto3parcial.platillo"
+52-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:28:13-37
+53            android:exported="false" />
+53-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:29:13-37
+54        <activity
+54-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:30:9-32:39
+55            android:name="com.example.proyecto3parcial.inicio"
+55-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:31:13-35
+56            android:exported="true" />
+56-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:32:13-36
+57        <activity
+57-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:33:9-35:40
+58            android:name="com.example.proyecto3parcial.menu"
+58-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:34:13-33
+59            android:exported="false" />
+59-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:35:13-37
+60        <activity
+60-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:36:9-38:40
+61            android:name="com.example.proyecto3parcial.Registro"
+61-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:37:13-37
+62            android:exported="false" />
+62-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:38:13-37
+63        <activity
+63-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:39:9-48:20
+64            android:name="com.example.proyecto3parcial.MainActivity"
+64-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:40:13-41
+65            android:exported="true" >
+65-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:41:13-36
+66            <intent-filter>
+66-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:43:13-47:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:44:17-69
+67-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:44:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:46:17-77
+69-->C:\Users\alago\AndroidStudioProjects\Proyecto-3parcial-main\Proyecto-3parcial\Proyecto 3parcial\app\src\main\AndroidManifest.xml:46:27-74
+70            </intent-filter>
+71        </activity>
+72        <!-- Needs to be explicitly declared on P+ -->
+73        <uses-library
+73-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:9-43:40
+74            android:name="org.apache.http.legacy"
+74-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:42:13-50
+75            android:required="false" />
+75-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\alago\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:43:13-37
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alago\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alago\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alago\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alago\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\alago\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\alago\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\alago\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+85    </application>
+86
+87</manifest>
