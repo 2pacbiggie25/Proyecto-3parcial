@@ -8,10 +8,10 @@ com/example/proyecto3parcial/databinding/ActivityOrdenesBinding.java
  com.example.proyecto3parcial.databinding.ActivityOrdenesBinding
 com/example/proyecto3parcial/databinding/ActivityInicioBinding.java
  com.example.proyecto3parcial.databinding.ActivityInicioBinding
-com/example/proyecto3parcial/databinding/ActivityPlatilloBinding.java
- com.example.proyecto3parcial.databinding.ActivityPlatilloBinding
-com/example/proyecto3parcial/databinding/ActivityRecomendacionesBinding.java
- com.example.proyecto3parcial.databinding.ActivityRecomendacionesBinding
+com/example/proyecto3parcial/Ubicacion.java
+ com.example.proyecto3parcial.Ubicacion
+com/example/proyecto3parcial/inicio.java
+ com.example.proyecto3parcial.inicio
 com/example/proyecto3parcial/Registro.java
  com.example.proyecto3parcial.Registro
 com/example/proyecto3parcial/ordenes.java
@@ -34,7 +34,7 @@ com/example/proyecto3parcial/BaseDeDatos.java
  com.example.proyecto3parcial.BaseDeDatos
 com/example/proyecto3parcial/databinding/ActivityMenuBinding.java
  com.example.proyecto3parcial.databinding.ActivityMenuBinding
-com/example/proyecto3parcial/Ubicacion.java
- com.example.proyecto3parcial.Ubicacion
-com/example/proyecto3parcial/inicio.java
- com.example.proyecto3parcial.inicio
+com/example/proyecto3parcial/databinding/ActivityRecomendacionesBinding.java
+ com.example.proyecto3parcial.databinding.ActivityRecomendacionesBinding
+com/example/proyecto3parcial/databinding/ActivityPlatilloBinding.java
+ com.example.proyecto3parcial.databinding.ActivityPlatilloBinding

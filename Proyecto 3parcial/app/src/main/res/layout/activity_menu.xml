@@ -38,7 +38,7 @@
         android:layout_width="174dp"
         android:layout_height="70dp"
         android:onClick="verOrden"
-        android:text="Ver Orden"
+        android:text="Actualizar Orden"
         android:textStyle="bold"
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
