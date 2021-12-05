@@ -25,6 +25,7 @@
         android:id="@+id/btn_ubicacion"
         android:layout_width="194dp"
         android:layout_height="74dp"
+        android:onClick="irUbi"
         android:text="UBICACIÓN "
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"

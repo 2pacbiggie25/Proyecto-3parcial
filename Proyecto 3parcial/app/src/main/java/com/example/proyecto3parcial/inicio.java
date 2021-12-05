@@ -16,14 +16,20 @@ public class inicio extends AppCompatActivity {
 
     public void ordenar(View view) {
 
-        Intent botonMenu = new Intent(this, CrearOrden.class);
+        Intent botonOrdenar = new Intent(this, CrearOrden.class);
 
-        startActivity(botonMenu);
+        startActivity(botonOrdenar);
     }
     public void verRecomendaciones(View view) {
 
         Intent botonRecomendacion = new Intent(this, recomendaciones.class);
 
         startActivity(botonRecomendacion);
+    }
+    public void irUbi(View view) {
+
+        Intent botonUbi = new Intent(this, ubicacion.class);
+
+        startActivity(botonUbi);
     }
 }

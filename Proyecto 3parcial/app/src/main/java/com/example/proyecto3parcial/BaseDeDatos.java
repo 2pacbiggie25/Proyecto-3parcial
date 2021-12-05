@@ -32,9 +32,9 @@ public class BaseDeDatos extends SQLiteOpenHelper
     }
     public ArrayList llenarordenes(){
         ArrayList<String>lista = new ArrayList<>();
-        SQLiteDatabase database = this.getWritableDatabase();
-        String q =  "SELECT * FROM Ordenes";
-        Cursor registros = database.rawQuery(q,null);
+        SQLiteDatabase Restaurantedb = this.getWritableDatabase();
+        String q =  "SELECT nombre || ' ' || precio FROM Platillo";
+        Cursor registros = Restaurantedb.rawQuery(q,null);
         if(registros.moveToFirst()){
             do{
                 lista.add(registros.getString(0));

@@ -1,4 +1,4 @@
-#Fri Dec 03 05:16:32 CST 2021
-base.0=C\:\\Users\\alago\\AndroidStudioProjects\\Proyecto-3parcial-main\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat Dec 04 23:44:36 CST 2021
+base.0=C\:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
