@@ -28,7 +28,7 @@ public class inicio extends AppCompatActivity {
     }
     public void irUbi(View view) {
 
-        Intent botonUbi = new Intent(this, ubicacion.class);
+        Intent botonUbi = new Intent(this, Ubicacion.class);
 
         startActivity(botonUbi);
     }

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_recomendaciones.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_recomendaciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_crear_orden.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_crear_orden.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_platillo.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_platillo.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_menu.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_inicio.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_ordenes.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_ordenes.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_registro.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_ubicacion.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_ubicacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\crisl\\Documents\\GitHub\\Proyecto-3parcial\\Proyecto 3parcial\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

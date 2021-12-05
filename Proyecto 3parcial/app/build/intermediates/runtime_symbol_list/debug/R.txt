@@ -2645,6 +2645,7 @@ int string error_icon_content_description 0x7f0e0036
 int string exposed_dropdown_menu_content_description 0x7f0e0037
 int string fab_transformation_scrim_behavior 0x7f0e0038
 int string fab_transformation_sheet_behavior 0x7f0e0039
+int string google_maps_key 0x7f0e007b
 int string hide_bottom_view_on_scroll_behavior 0x7f0e003a
 int string icon_content_description 0x7f0e003b
 int string item_view_role_description 0x7f0e003c
@@ -2710,6 +2711,7 @@ int string path_password_eye_mask_visible 0x7f0e0077
 int string path_password_strike_through 0x7f0e0078
 int string search_menu_title 0x7f0e0079
 int string status_bar_notification_info_overflow 0x7f0e007a
+int string title_activity_ubicacion 0x7f0e007c
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style AndroidThemeColorAccentYellow 0x7f0f0002
